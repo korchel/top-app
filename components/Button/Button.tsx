@@ -17,7 +17,7 @@ export const Button = ({ variant, arrow = 'none', children, className, ...props 
         <span
           className={cn(styles.arrow, {[styles.down]: arrow === 'down'})}
         >
-          <ArrowIcon/>
+          <ArrowIcon />
         </span>
       }
     </button>

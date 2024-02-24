@@ -1,4 +1,4 @@
-import { Htag, Button } from "@/components";
+import { Htag, Button, Ptag } from "@/components";
 
 export default function Home() {
   return (
@@ -6,6 +6,9 @@ export default function Home() {
       <Htag tag='h1'>text</Htag>
       <Button variant='primary' arrow='right'>button</Button>
       <Button variant='ghost' arrow='right'>button</Button>
+      <Ptag size='l'>big</Ptag>
+      <Ptag>medium</Ptag>
+      <Ptag size='s'>small</Ptag>
     </main>
   );
 }
