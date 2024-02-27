@@ -1,4 +1,4 @@
-import { Htag, Button, Ptag, Tag } from "@/components";
+import { Htag, Button, Ptag, Tag, Rating } from "@/components";
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
       <Tag size='s'>small</Tag>
       <Tag size='m' color='red'>medium</Tag>
       <Tag size='s' href='#' color='primary'>small</Tag>
+      <Rating rating={4}/>
     </main>
   );
 }
